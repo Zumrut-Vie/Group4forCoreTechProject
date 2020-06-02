@@ -1,0 +1,103 @@
+.main {
+  width: 90%; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0 5% 0 0;
+  padding-left: 2vw;
+  overflow: hidden;
+  background-color: #86ad42; }
+
+nav li {
+  float: left;
+  padding-left: 1vw;
+  font-size: 1.5em; }
+
+nav li a {
+  display: block;
+  color: white;
+  font-family: Roboto;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+nav li a:hover {
+  color: black; }
+
+nav li a:visited {
+  color: white; }
+
+.title {
+  width: 45%;
+  height: 10%;
+  margin: 0;
+  position: relative;
+  top: 3vw;
+  left: 3vw; }
+
+.title > h1 {
+  position: relative;
+  margin: 0;
+  padding: 1vw;
+  background-color: rgba(238, 240, 206, 0.5);
+  font-family: Roboto;
+  font-size: 1.5rem;
+  color: black; }
+
+.subtitle {
+  margin: 0;
+  background-color: rgba(134, 173, 66, 0.5);
+  font-size: 1.5rem;
+  padding: 1vw; }
+
+.subtitle1 {
+  margin: 0;
+  background-color: rgba(134, 173, 66, 0.5);
+  font-size: 16px;
+  padding: 1vw; }
+
+.container {
+  display: inline-block;
+  margin: 0 5% 0 0;
+  height: 45vw;
+  background-image: url("elkem.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  padding-right: 1vw; }
+
+.soundtrack {
+  width: 90%;
+  display: block;
+  padding: 2vw 2vw;
+  background-color: #86ad42; }
+
+.soundtrack, p {
+  font-family: Roboto;
+  color: white;
+  font-size: 2.5rem;
+  margin: 0;
+  background-color: #86ad42; }
+
+.soundtrack > p, a {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  background-color: #86ad42; }
+
+.sound {
+  font-family: Arial;
+  padding: 10px;
+  list-style-type: none; }
+
+.sound a {
+  font-family: Arial;
+  padding: 10px;
+  list-style-type: none;
+  color: white; }
+
+a:hover {
+  color: white; }
+
+a:visited {
+  color: white; }
+
+/*# sourceMappingURL=style-elke.css.map */
