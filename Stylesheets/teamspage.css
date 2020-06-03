@@ -1,0 +1,189 @@
+*{
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+/*Header*/
+
+@media screen and (max-width: 768px) and (min-width: 300px)
+{
+	.main-header
+	{
+		display: flex;
+		justify-content: flex-start;
+	}
+
+}
+
+.main-header
+{
+	width: 100%;
+	background-color: rgba(238, 240, 206);
+	min-height: 250px;
+	display: flex;
+	justify-content: center;
+}
+
+.logo
+{
+	width: 20%;
+	min-width: 250px;
+	margin: 0;
+	padding: 0;
+}
+
+.logo img
+{
+	width: 100%;
+}
+
+/*Navigation Bar*/
+
+@media screen and (max-width: 768px) and (min-width: 300px)
+{
+	.navbar ul
+	{
+		justify-content: center;
+	}
+}
+
+.navbar
+{
+	display: flex;
+	background-color: rgba(182,168,137);
+    width: 100%;
+    margin: 0 0 0 10px;
+}
+
+.navbar ul
+{
+	display: flex;
+	list-style: none;
+    width: 100%;
+}
+
+.navbar li
+{
+    margin: 10px;
+    padding: 10px 0;
+
+}
+
+.navbar a
+{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition-property: font-size, color, border;
+  transition-duration: 750ms;
+  font-family: sans-serif;
+}
+
+.navbar a:hover 
+{
+  color: lightgrey;
+  border: white 3px solid;
+  font-size: 35px;
+  border-radius: 8px; 
+}
+
+
+.teamContainer {
+    background-color:  rgba(134, 173, 66);
+    margin: 0 10px;
+    width: 100%
+}
+
+.teamHeading{
+    position: relative;
+    font-family: Roboto;
+    color: white;
+    font-size: 50px;
+	text-shadow: 7px 7px 15px black;
+    padding: 3rem 0 3rem 3rem;
+}
+
+.cardWrapper{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    min-height: 55vh;
+    padding-top: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2%;
+    flex-basis: 20%;
+    border: solid 1px;
+    background-color: rgba(238, 240, 206,0.7);
+}
+
+.card {
+    transition-property: border;
+    transition-duration: 750ms;
+    }
+    
+.card:hover 
+    {
+    border: 3px solid white;
+    border-radius: 8px; 
+    }
+
+.cardImg {
+    position: relative;
+    width: 100%;
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.socialMedia {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+}
+
+.socialMedia li {
+    list-style: none;
+    padding: 1.5rem;
+}
+
+#social {
+    padding-right: 5rem;
+}
+
+
+/*Footer*/
+
+@media screen and (max-width: 768px) and (min-width: 300px)
+{
+	.main-footer
+	{
+		background-image: none;
+		background-color: white;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+}
+
+.main-footer
+{
+	width: 100%;
+	background-color: rgba(238, 240, 206);
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-footer p
+{
+	margin-top: -30px;
+	color: black;
+}

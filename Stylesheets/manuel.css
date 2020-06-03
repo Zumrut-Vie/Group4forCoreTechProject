@@ -1,0 +1,190 @@
+@media screen and (max-width: 768px) and (min-width: 480px)
+{
+  .main-header
+  {
+    display: flex;
+    justify-content: flex-start;
+
+  }
+
+}
+
+.main-header
+{
+	width: 100%;
+	background-color: rgba(238, 240, 206);
+	min-height: 250px;
+	display: flex;
+	justify-content: center;
+}
+
+.logo
+{
+	width: 20%;
+	min-width: 250px;
+	margin: 0;
+  padding: 0;
+}
+
+.logo img
+{
+  width: 100%;
+
+}
+
+/*Navigation Bar*/
+
+@media screen and (max-width: 768px) and (min-width: 480px)
+{
+  .navbar ul
+  {
+    justify-content: center;
+  }
+}
+
+.navbar
+{
+  display: flex;
+  background-color: rgba(182,168,137);
+  width: 100%;
+}
+
+.navbar ul
+{
+  display: flex;
+  list-style: none;
+
+}
+
+.navbar li
+{
+  margin: 10px;
+
+}
+
+.navbar a
+{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  transition-property: font-size, color, border;
+  transition-duration: 750ms;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.navbar a:hover 
+{
+  color: lightgrey;
+  border: white 3px solid;
+  font-size: 35px;
+  border-radius: 8px; 
+}
+
+.main {
+  width: 100%; }
+
+
+
+.title {
+  width: 45%;
+  height: 10%;
+  margin: 0;
+  position: relative;
+  top: 3vw;
+  left: 3vw; }
+
+.title > h1 {
+  position: relative;
+  margin: 0;
+  padding: 1vw;
+  background-color: rgba(238, 240, 206, 0.5);
+  font-family: Roboto;
+  font-size: 20px;
+  color: black; }
+
+.subtitle {
+  margin: 0;
+  background-color: rgba(134, 173, 66, 0.5);
+  font-size: 20px;
+  padding: 1vw; }
+
+.subtitle1 {
+  margin: 0;
+  background-color: rgba(13, 19, 5, 0.5);
+  font-size: 16px;
+  padding: 1vw; }
+
+.container {
+  display: inline-block;
+  margin: 0 5% 0 0;
+  height: 75vh;
+  background-image: url("../Images/manuel.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  margin-right: 1vw; }
+
+.soundtrack {
+  width: 100%;
+  display: block;
+  padding: 2vw 0;
+  background-color: #86ad42;
+  margin: 0; }
+
+.soundtrack, p {
+  font-family: Roboto;
+  color: white;
+  font-size: 2.5rem;
+  margin: 0; 
+  }
+
+.soundtrack > p, a {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  margin: 0; 
+  }
+
+.sound {
+  font-family: Arial;
+  padding: 10px;
+  list-style-type: none;
+  margin: 0;}
+
+.sound a {
+  font-family: Arial;
+  padding: 10px;
+  list-style-type: none;
+  color: white; 
+  margin: 0;}
+
+  @media screen and (max-width: 768px) and (min-width: 480px)
+{
+  .main-footer
+  {
+    background-image: none;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+}
+
+.main-footer
+{
+  width: 100%;
+  background-color: rgba(238, 240, 206);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer p
+{
+  margin-top: -40px;
+  color: black;
+  font-size: 15px;
+}
+
