@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/reservation.css">
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header></header>
+<nav> </nav>
+
+<div class="main">
+    <h1 id="bookingHeading">Book a tabel </h1>
+
+    <div id="checkTableForm">
+
+    <form action="">
+
+        <label for="numPeople">For how many people? </label>
+        <input type="number" id="numPeople"><br>
+
+        <label for="date"> Date: </label>
+        <input type="date" id="date"><br>
+
+        <div class="row">
+            <div class="col">
+                <label for="fromTime">From: </label>
+                <input type="time" id="fromTime">
+            </div>
+
+            <div class="col">
+                <label for="untilTime">Until: </label>
+                <input type="time" id="untilTime">
+            </div>
+
+        </div>
+        <br>
+
+        <h4>Extras:</h4>
+
+        <label for="outside">Outside</label>
+        <input type="checkbox" id="outside" value="outside"><br>
+
+        <label for="space_for_stroller">Space for a stroller</label>
+        <input type="checkbox" id="space_for_stroller" value="stroller"><br>
+
+        <label for="window">Near a window</label>
+        <input type="checkbox" id="window" value="window"><br>
+
+        <button type="button" id="checkButton">Check for table </button>
+
+    </form>
+    </div>
+
+    <div id="reserveForm">
+        <h4>Great we found the perfect table for you !</h4>
+        <p>Please enter you personal information to complete the reservation. </p>
+
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+
+            <label for="telephone">Telephone Number: </label>
+            <input type="tel" id="telephone"><br>
+
+            <label for="email">Email Address: </label>
+            <input type="email" id="email"><br>
+
+            <label for="comment"> What else should we know? </label><br>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br>
+
+            <button type="button" id="reserveButton">Reserve the table</button>
+
+        </form>
+
+    </div>
+
+    <div id="noTables">
+        <h3>Sorry but there is no available table for this request</h3>
+        <p id="potentialmatchesMessage"> Maybe you also like one of these tables: </p>
+
+    </div>
+
+    <div id="thanks">
+        <h1>Thanks for the reservation</h1>
+        <h3>We are looking forward to seeing you soon &#127803; </h3>
+
+    </div>
+
+
+
+
+</div>
+
+<footer></footer>
+
+<script src="./javaScript/reservation.js"></script>
+</body>
+</html>
