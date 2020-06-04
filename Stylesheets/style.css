@@ -13,7 +13,7 @@
 .main-header
 {
 	width: 100%;
-	background-color: rgba(238, 240, 206);
+	background-color: rgb(238, 240, 206);
 	min-height: 250px;
 	display: flex;
 	justify-content: center;
@@ -45,7 +45,7 @@
 .navbar
 {
 	display: flex;
-	background-color: rgba(182,168,137);
+	background-color: rgb(182,168,137);
 	width: 100%;
 }
 
@@ -112,13 +112,14 @@
 
 .main-content
 {
-	background-color: rgba(134, 173, 66);
+	background-color: rgb(134, 173, 66);
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+
 }
 
 .main-content h1
@@ -142,8 +143,9 @@
 	margin: auto;
 	font-family: sans-serif;
 	color: white;
-	box-shadow: 10px 20px rgba(0, 0, 0, 0.3);
+	box-shadow: 10px 15px rgba(0, 0, 0, 0.3);
 	border: black solid 4px;
+	margin-top: 1em;
 }
 
 .subcon1 h1
@@ -172,7 +174,7 @@
 
 .text-con
 {
-	background-color: rgba(238, 240, 206,);
+	background-color: rgb(238, 240, 206);
 	color: black;
 	width: 80%;
 	margin-top: 20px;
@@ -188,7 +190,7 @@
 	flex-wrap: wrap;
 	width: 75%;
 	margin: auto;
-	box-shadow: 10px 20px rgba(0, 0, 0, 0.3);
+	box-shadow: 10px 15px rgba(0, 0, 0, 0.3);
 	border: black solid 4px;
 }
 
@@ -233,7 +235,7 @@
 	flex-wrap: wrap;
 	width: 75%;
 	margin: auto;
-	box-shadow: 10px 20px rgba(0, 0, 0, 0.3);
+	box-shadow: 10px 15px rgba(0, 0, 0, 0.3);
 	border: black solid 4px;
 }
 
@@ -278,7 +280,7 @@
 	flex-wrap: wrap;
 	width: 75%;
 	margin: auto;
-	box-shadow: 10px 20px rgba(0, 0, 0, 0.3);
+	box-shadow: 10px 15px rgba(0, 0, 0, 0.3);
 	border: black solid 4px;
 }
 
@@ -359,7 +361,7 @@
 .main-footer
 {
 	width: 100%;
-	background-color: rgba(238, 240, 206);
+	background-color: rgb(238, 240, 206);
 	height: 250px;
 	display: flex;
 	flex-direction: column;
@@ -377,7 +379,7 @@
 
 .main 
 {
-  width: 80%;
+
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -388,8 +390,8 @@
   font-family: "Roboto Condensed", sans-serif;
   align-items: center; 
   background-color: rgba(238, 240, 206,0.7);
-  width: 75%;
-  box-shadow: 10px 20px rgba(0, 0, 0, 0.3);
+  width: 45em;
+  box-shadow: 10px 15px rgba(0, 0, 0, 0.3);
   border: black solid 4px; 
 }
 
